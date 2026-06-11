@@ -53,7 +53,7 @@ export default function UserAreaLayout({
         <SidebarLeft />
         
         {/* Scrollable Center Feed container */}
-        <main className="flex-1 overflow-y-auto px-2 sm:px-4 py-6 xl:pl-68 lg:pr-76 bg-[#f0f2f5] dark:bg-[#18191a] transition-all duration-200">
+        <main className="flex-1 overflow-y-auto px-2 sm:px-4 py-6 xl:ml-64 lg:mr-72 bg-[#f0f2f5] dark:bg-[#18191a] transition-all duration-200">
           <div className="max-w-2xl mx-auto">
             {children}
           </div>
